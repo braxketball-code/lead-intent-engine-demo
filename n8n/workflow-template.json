@@ -1,0 +1,11 @@
+{
+  "name": "Lead Intent Engine — Score & Route",
+  "nodes": [
+    {"id": "webhook", "name": "Webhook: New Lead", "type": "n8n-nodes-base.webhook", "parameters": {"httpMethod": "POST", "path": "lead-intake"}},
+    {"id": "score", "name": "HTTP: Score Lead", "type": "n8n-nodes-base.httpRequest", "parameters": {"method": "POST", "url": "http://localhost:8080/score"}},
+    {"id": "route", "name": "Route by Tier", "type": "n8n-nodes-base.switch"},
+    {"id": "slack", "name": "Slack: Hot Lead Alert", "type": "n8n-nodes-base.slack"},
+    {"id": "sheets", "name": "Google Sheets: Log All", "type": "n8n-nodes-base.googleSheets"}
+  ],
+  "meta": {"description": "Import into n8n. Wire scorer HTTP node or replace with OpenAI/Claude."}
+}

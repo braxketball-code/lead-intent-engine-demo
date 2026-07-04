@@ -1,0 +1,60 @@
+[
+  {
+    "id": "lead-001",
+    "source": "web_form",
+    "vertical": "real_estate",
+    "name": "Sarah Mitchell",
+    "email": "sarah.mitchell@gmail.com",
+    "phone": "303-555-0142",
+    "message": "Looking to buy a 3BR home in Denver under $650k. Pre-approved, need to move in 60 days. Serious buyer.",
+    "metadata": {"budget_max": 650000, "timeline_days": 60, "pre_approved": true}
+  },
+  {
+    "id": "lead-002",
+    "source": "facebook_ads",
+    "vertical": "real_estate",
+    "name": "Mike T.",
+    "email": "",
+    "phone": "",
+    "message": "Just curious about prices in the area. Maybe buying someday.",
+    "metadata": {}
+  },
+  {
+    "id": "lead-003",
+    "source": "google_maps_scrape",
+    "vertical": "medical",
+    "name": "Dr. James Chen",
+    "email": "jchen@riversideclinic.com",
+    "phone": "512-555-0198",
+    "message": "Orthopedic practice expanding. Need patient acquisition automation. Budget $3-5k/month on ads.",
+    "metadata": {"monthly_ad_budget": 4000}
+  },
+  {
+    "id": "lead-004",
+    "source": "reddit_monitor",
+    "vertical": "automation",
+    "name": "startup_founder_42",
+    "email": "founder@saasco.io",
+    "message": "[Hiring] Need n8n developer for lead scoring pipeline. Fixed price $800.",
+    "metadata": {"budget_fixed": 800, "urgency": "this_week"}
+  },
+  {
+    "id": "lead-006",
+    "source": "instantly_reply",
+    "vertical": "medical",
+    "name": "Lisa Park",
+    "email": "lisa@targetpatientsmd.com",
+    "message": "Scaling Google Maps scraping workflow. 200 leads/week manual review. Need AI qualification.",
+    "metadata": {"weekly_leads": 200, "crm": "gohighlevel"}
+  },
+  {
+    "id": "lead-008",
+    "source": "linkedin_signal",
+    "vertical": "automation",
+    "name": "Enterprise Ops Lead",
+    "email": "ops@bigcorp.com",
+    "phone": "415-555-0400",
+    "message": "Evaluating automation vendors for omnichannel intent monitoring. Budget approved Q3.",
+    "metadata": {"budget_range": "10k-25k"}
+  }
+]
